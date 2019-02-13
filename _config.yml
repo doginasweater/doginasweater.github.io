@@ -1,1 +1,17 @@
 theme: jekyll-theme-hacker
+
+title: Dog In A Sweater - The Tutorial
+description: Let's learn you a thing about some web dev
+
+show_downloads: false
+
+collections:
+  tutorials:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+    
